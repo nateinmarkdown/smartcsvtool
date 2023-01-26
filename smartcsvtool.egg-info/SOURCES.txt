@@ -1,0 +1,12 @@
+README.md
+setup.py
+smartcsvtool/__init__.py
+smartcsvtool/cleaner.py
+smartcsvtool/converter.py
+smartcsvtool/reader.py
+smartcsvtool/writer.py
+smartcsvtool.egg-info/PKG-INFO
+smartcsvtool.egg-info/SOURCES.txt
+smartcsvtool.egg-info/dependency_links.txt
+smartcsvtool.egg-info/requires.txt
+smartcsvtool.egg-info/top_level.txt
