@@ -14,7 +14,7 @@ pip install smartcsvtool
 ### Reading CSV files
 
 ```phyton
-from smartcsvtool import read_csv
+import smartcsvtool
 data = smartcsvtool.read_csv('example.csv')
 ```
 
@@ -23,7 +23,7 @@ The `read_csv()` function reads a CSV file and returns a list of dictionaries, w
 ### Reading CSV files as list
 
 ```phyton
-from smartcsvtool import read_csv_as_list
+import smartcsvtool
 data = smartcsvtool.read_csv_as_list('example.csv')
 ```
 
@@ -32,7 +32,7 @@ The `read_csv_as_list()` function reads a CSV file and returns a list of lists, 
 ### Removing duplicates
 
 ```phyton
-from smartcsvtool import read_csv, remove_duplicates
+import smartcsvtool
 data = smartcsvtool.read_csv('example.csv')
 no_duplicates = smartcsvtool.remove_duplicates(data, 'id')
 ```
@@ -42,7 +42,7 @@ The `remove_duplicates()` function takes a list of dictionaries and removes any 
 ### Filtering data
 
 ```phyton
-from smartcsvtool import read_csv, filter_data
+import smartcsvtool
 data = smartcsvtool.read_csv('example.csv')
 filtered_data = smartcsvtool.filter_data(data, 'age', 25)
 ```
@@ -52,7 +52,7 @@ The `filter_data()` function filters a list of dictionaries based on a specified
 ### Sorting data
 
 ```phyton
-from smartcsvtool import read_csv, sort_data
+import smartcsvtool
 data = smartcsvtool.read_csv('example.csv')
 sorted_data = smartcsvtool.sort_data(data, 'name')
 ```
